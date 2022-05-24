@@ -35,7 +35,7 @@ figcaption {
 	margin: 0rem 0rem 2rem;
 	font-style: bold;
 	font-weight: 700;
-	font-size: 4rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	line-height: 140%;
 	color: rgb(250, 250, 250);
@@ -117,6 +117,10 @@ p.price {
 		display: grid;
 		grid-template-columns: 30rem auto;
 		position: relative;
+	}
+
+	figcaption {
+		font-size: 4rem;
 	}
 
 	nav {
