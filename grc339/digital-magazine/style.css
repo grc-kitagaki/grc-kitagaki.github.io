@@ -1,0 +1,49 @@
+/*CSS document*/
+
+body {
+    color: rgb(40, 40, 40);
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding-right: 2em;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: ff-basic-gothic-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h2{
+    font-size: 24pt;
+}
