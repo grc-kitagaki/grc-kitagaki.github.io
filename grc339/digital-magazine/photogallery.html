@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            (function(d) {
+                var config = {
+                        kitId: 'uve5krq',
+                        scriptTimeout: 3000,
+                        async: true
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function() {
+                        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                h.className += " wf-loading";
+                tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function() {
+                    a = this.readyState;
+                    if (f || a && a != "complete" && a != "loaded") return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config)
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s)
+            })(document);
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>CLOTH MAG</title>
+        <!-- ★ Please include a proper title.-->
+        <link rel="icon" type="image/x-icon" href="images/cloth_favicon.png">
+        <!-- Helpful meta tags to fight GitHub aggresive caching-->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+    <body>
+        <div class="container_photogallery">
+            <header>
+                <h1>
+                    <a href="index.html">
+                        <img src="images/cloth_logo.png" alt="Logo of Cloth Mag.">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                        <li>
+                            <a href="#">Featured</a>
+                        </li>
+                        <li>
+                            <a href="photogallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="newsletter.html">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="gallery">
+                <input type="radio" name="item" id="photo1" checked="checked">
+                <input type="radio" name="item" id="photo2">
+                <input type="radio" name="item" id="photo3">
+                <input type="radio" name="item" id="photo4">
+                <input type="radio" name="item" id="photo5">
+                <input type="radio" name="item" id="photo6">
+                <input type="radio" name="item" id="photo7">
+                <input type="radio" name="item" id="photo8">
+                <h3>FRUiTS Magazine Cover Gallery</h3>
+                <main>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-1.jpg" alt="FRUiTS magazine cover of two people sitting on a curb in patterned clothing with colorful graphics and letters.">
+                        <figcaption>Issue No.01</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-2.jpeg" alt="FRUiTS magazine cover of a person covering their face holding a small clipboard with colorful graphics and letters.">
+                        <figcaption>Issue No.07</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-3.jpg" alt="FRUiTS magazine cover of two girls in colorful clothing holding panda stuffed animals with colorful graphics and letters.">
+                        <figcaption>Issue No.33</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-4.jpg" alt="FRUiTS magazine cover of a group of people sitting on the sidewalk facing eachother with colorful graphics and letters.">
+                        <figcaption>Issue No.05</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-5.jpg" alt="FRUiTS magazine cover of a person in black clothing and alternative makeup with colorful lettering.">
+                        <figcaption>Issue No.211</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-6.jpeg" alt="FRUiTS magazine cover of two girls with colorful clothing and accessories holding hands with colorful graphics and letters.">
+                        <figcaption>Issue No.43</figcaption>
+                    </figure>
+                    <figure class="gallery">
+                        <img src="images/fruitsmag-7.jpeg" alt="FRUiTS magazine cover of two people in colorful clothing and accessories with colorful letters.">
+                        <figcaption>Issue No.13</figcaption>
+                    </figure>
+                </main>
+                <nav class="gallery">
+                    <label for="photo1">
+                        <img src="images/fruitsmag-1.jpg" alt="FRUiTS magazine cover of two people sitting on a curb in patterned clothing with colorful graphics and letters.">
+                    </label>
+                    <label for="photo2">
+                        <img src="images/fruitsmag-2.jpeg" alt="FRUiTS magazine cover of a person covering their face holding a small clipboard with colorful graphics and letters.">
+                    </label>
+                    <label for="photo3">
+                        <img src="images/fruitsmag-3.jpg" alt="FRUiTS magazine cover of two girls in colorful clothing holding panda stuffed animals with colorful graphics and letters.">
+                    </label>
+                    <label for="photo4">
+                        <img src="images/fruitsmag-4.jpg" alt="FRUiTS magazine cover of a group of people sitting on the sidewalk facing eachother with colorful graphics and letters.">
+                    </label>
+                    <label for="photo5">
+                        <img src="images/fruitsmag-5.jpg" alt="FRUiTS magazine cover of a person in black clothing and alternative makeup with colorful lettering.">
+                    </label>
+                    <label for="photo6">
+                        <img src="images/fruitsmag-6.jpeg" alt="FRUiTS magazine cover of two girls with colorful clothing and accessories holding hands with colorful graphics and letters.">
+                    </label>
+                    <label for="photo7">
+                        <img src="images/fruitsmag-7.jpeg" alt="FRUiTS magazine cover of two people in colorful clothing and accessories with colorful letters.">
+                    </label>
+                </nav>
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

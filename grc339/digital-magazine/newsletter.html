@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            (function(d) {
+                var config = {
+                        kitId: 'uve5krq',
+                        scriptTimeout: 3000,
+                        async: true
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function() {
+                        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                h.className += " wf-loading";
+                tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function() {
+                    a = this.readyState;
+                    if (f || a && a != "complete" && a != "loaded") return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config)
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s)
+            })(document);
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>CLOTH MAG</title>
+        <!-- ★ Please include a proper title.-->
+        <link rel="icon" type="image/x-icon" href="images/cloth_favicon.png">
+        <!-- Helpful meta tags to fight GitHub aggresive caching-->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+    <body>
+        <div class="container_newsletter">
+            <header>
+                <h1>
+                    <a href="index.html">
+                        <img src="images/cloth_logo.png" alt="Logo of Cloth Mag.">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                        <li>
+                            <a href="#">Featured</a>
+                        </li>
+                        <li>
+                            <a href="photogallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="newsletter.html">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="newsletter">
+                <img src="images/magazinepage.jpeg" img class="newsletter" img alt="A cutout from ViVi magazine.">
+                <h2>Subscribe to our newsletter!</h2>
+                <form>
+                    <input type="text" name="name" class="form" placeholder="Name (required)" required />
+                    <input type="email" name="email" class="form" placeholder="Email (required)" required />
+                    <p>Send me...</p>
+                    <div class="selection">
+                        <input type="checkbox" id="culture" name="Culture" checked>
+                        <label for="Culture">Weekly Fashion History</label>
+                    </div>
+                    <div class="selection">
+                        <input type="checkbox" id="food" name="Food" checked>
+                        <label for="Food">Monthly Digital Magazine</label>
+                    </div>
+                    <div class="selection">
+                        <input type="checkbox" id="beverage" name="Beverage" checked>
+                        <label for="Beverage">Other Cloth Mag Updates</label>
+                    </div>
+                    <a href="#" class="button">Subscribe</a>
+                </form>
+            </main>
+            <footer>
+                <p> All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>

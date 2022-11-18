@@ -1,1 +1,155 @@
-
+<!doctype html>
+<html>
+    <head>
+        <script>
+            (function(d) {
+                var config = {
+                        kitId: 'uve5krq',
+                        scriptTimeout: 3000,
+                        async: true
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function() {
+                        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                h.className += " wf-loading";
+                tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function() {
+                    a = this.readyState;
+                    if (f || a && a != "complete" && a != "loaded") return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config)
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s)
+            })(document);
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>CLOTH MAG</title>
+        <link rel="icon" type="image/x-icon" href="images/cloth_favicon.png">
+        <!-- Helpful meta tags to fight GitHub aggresive caching-->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+    <body>
+        <div class="container_index">
+            <header>
+                <h1>
+                    <a href="index.html">
+                        <img src="images/cloth_logo.png" alt="Logo of Cloth Mag.">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                        <li>
+                            <a href="#">Featured</a>
+                        </li>
+                        <li>
+                            <a href="photogallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="newsletter.html">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="mainstory">
+                    <!-- ★ Teaser for the main story. You may want to give it a class.-->
+                    <a href="mainstory.html">
+                        <figure>
+                            <img src="images/evolution_streetwear.jpeg" alt="Two people posing on the street in colorful clothing.">
+                        </figure>
+                        <h3>The Evolution of Streetwear</h3>
+                        <p> Streetwear has notoriously made a big jump in recent years, going from cult followings to a behemoth of an icon in the world of luxury fashion. From the birth of street style to what the future holds, here's all about the evolution of the streetwear culture through the decades. Born out of the New York Hip-hop scene, streetwear evolved with elements of Californian and Japanese fashion. Streetwear brands borrowed heavily from punk, surf, and skate culture. It is something that is always evolving according to the external influences of popular culture and subculture. The evolution of streetwear is a timeline of brands, designers, musicians, and other big names inspiring and influencing each other’s work. </p>
+                    </a>
+                </section>
+                <section class="secondary">
+                    <a href="#">
+                        <figure>
+                            <img src="images/origins_harajuku.jpeg" alt="Black and white photo of two women standing in a busy street.">
+                        </figure>
+                        <h3>The Origins of Harajuku Fashion</h3>
+                        <p> Harajuku fashion did its job well as a type of street fashion to identify wearers from the mainstream. </p>
+                    </a>
+                </section>
+                <section class="secondary">
+                    <a href="#">
+                        <figure>
+                            <img src="images/issey_miyake.jpeg" alt="Issey Miyake.">
+                        </figure>
+                        <h3>Honoring Issey Miyake</h3>
+                        <p> Issey Miyake has passed away at age 84, leaving behind an extensive legacy that surpassed any boundaries of fashion, culture and trends. </p>
+                    </a>
+                </section>
+                <section class="secondary">
+                    <a href="#">
+                        <figure>
+                            <img src="images/90s_fashion.jpeg" alt="90s catalog page of a woman in a purple dress.">
+                        </figure>
+                        <h3>Trends that Defined 90s Fashion</h3>
+                        <p> Looking back, the '90s feels like a golden era—the Game Boy! The Spice Girls! The Parent Trap! The last cell phone-less generation! Especially when it comes to '90s fashion. </p>
+                    </a>
+                </section>
+                <section class="secondary_standalone">
+                    <a href="#">
+                        <figure>
+                            <img src="images/fashion_politics.jpeg" alt="Eight models standing next to each other wearing fun jackets.">
+                        </figure>
+                        <h3>The Undeniable Politics of Fashion</h3>
+                        <p> The presence of politics in fashion is of paramount importance. Both as a form of manifestation and as a form of industry regulation. Hilary Jochmans gives light on the importance of political legislation concerning fashion. “Fashion functions as a mirror to our times, so it is inherently political,” notes Andrew Bolton, Wendy Yu Curator in Charge of The Costume Institute at the Metropolitan Museum of Art. “It’s been used to express patriotic, nationalistic, and propagandistic tendencies as well as complex issues related to class, race, ethnicity, gender, and sexuality.” </p>
+                    </a>
+                </section>
+            </main>
+            <aside>
+                <section class="tertiary">
+                    <a href="#">
+                        <h3>
+                            <span>What is Japanese Archive Fashion?</span>
+                        </h3>
+                        <p>
+                            <span> Archive fashion are pieces that have a degree of significance in the respective fashion houses they were made in. It can also mean becoming an archivist of your favorite designer, collecting, researching, and reselling the pieces out of pure love. </span>
+                        </p>
+                    </a>
+                </section>
+                <section class="tertiary">
+                    <a href="#">
+                        <h3>
+                            <span>Notable Alternative Subcultures</span>
+                        </h3>
+                        <p>
+                            <span> New micro-trends are constantly emerging through blogs and memes, and some of them come to life on fashion items. However silly it may sound, people are actually wearing these trends, and we’re here to guide you through them. </span>
+                        </p>
+                    </a>
+                </section>
+                <section class="tertiary">
+                    <a href="#">
+                        <h3>
+                            <span>Street Style from Around the World</span>
+                        </h3>
+                        <p>
+                            <span> Our investigation of street style in cities across the globe offers a diverse look at how real women are wearing this season’s pieces while paying homage to trends dominating the major fashion centers. </span>
+                        </p>
+                    </a>
+                </section>
+            </aside>
+            <footer>
+                <p> All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
