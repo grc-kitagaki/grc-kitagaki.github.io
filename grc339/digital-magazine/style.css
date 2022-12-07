@@ -107,6 +107,10 @@ p {
     margin-top: 0.4em;
 }
 
+span.caps {
+    text-transform: uppercase;
+}
+
 figcaption {
     color: rgb(65, 42, 24);
     font-family: essonnes-text, serif;
@@ -249,7 +253,6 @@ a.button:hover {
     max-width: 60em;
     margin: 0 auto 3em;
     display: block
-    grid-gap: 0 1.7em;
     }
     
     header {
